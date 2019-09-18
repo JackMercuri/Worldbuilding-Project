@@ -167,6 +167,7 @@ GameObject:
   - component: {fileID: 2857040701564051671}
   - component: {fileID: 2638668319374227348}
   - component: {fileID: 1983216932875434477}
+  - component: {fileID: 996368129988528921}
   m_Layer: 0
   m_Name: Bar_Stand
   m_TagString: Untagged
@@ -252,6 +253,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &996368129988528921
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165463467014302311}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -3818717896772944092, guid: 92a44f28d9c855f4a8d76552e6a71253, type: 3}
 --- !u!1 &737647963941708490
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,6 +590,7 @@ GameObject:
   - component: {fileID: 7859779032894349288}
   - component: {fileID: 8363657361265814870}
   - component: {fileID: 6744677523268089}
+  - component: {fileID: 362520302810520622}
   m_Layer: 0
   m_Name: Stool_Seat
   m_TagString: Untagged
@@ -642,6 +658,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &362520302810520622
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340866588255644785}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3075699084281923076, guid: 92a44f28d9c855f4a8d76552e6a71253, type: 3}
 --- !u!1 &1478012605158179197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,6 +1749,7 @@ GameObject:
   - component: {fileID: 619691396331635175}
   - component: {fileID: 10600619755554310}
   - component: {fileID: 4526025412406637320}
+  - component: {fileID: 366556950896060233}
   m_Layer: 0
   m_Name: Stool_Stand
   m_TagString: Untagged
@@ -1786,6 +1817,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &366556950896060233
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4322748569581258175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 6678230267864529511, guid: 92a44f28d9c855f4a8d76552e6a71253, type: 3}
 --- !u!1 &4356443315853075357
 GameObject:
   m_ObjectHideFlags: 0
