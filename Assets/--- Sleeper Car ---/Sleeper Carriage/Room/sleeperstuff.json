@@ -1,0 +1,48 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                }
+            },
+            "shader": "pbr-metal-rough-with-alpha-blending",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "Bed": {
+            "shader": "Main shader"
+        },
+        "BedFurnatureWood": {
+            "shader": "Main shader"
+        },
+        "BedWood": {
+            "shader": "Main shader"
+        },
+        "Chair1": {
+            "shader": "Main shader"
+        },
+        "FurnatureSeat": {
+            "shader": "Main shader"
+        },
+        "Hinge1": {
+            "shader": "Main shader"
+        },
+        "Net1": {
+            "shader": "Main shader"
+        }
+    }
+}
