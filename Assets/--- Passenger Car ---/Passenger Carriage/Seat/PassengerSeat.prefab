@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3740719071133157867}
   - component: {fileID: 6736685481386111053}
   - component: {fileID: 8208485367254041550}
+  - component: {fileID: 1851772896222118136}
   m_Layer: 0
   m_Name: PassengerSeat_PaddingA
   m_TagString: Untagged
@@ -78,6 +79,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1851772896222118136
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350122049436949333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79, y: 1.18, z: 1.6}
+  m_Center: {x: -0.01, y: 0.24, z: 0.000000059604645}
 --- !u!1 &2825218647559988208
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,7 +418,6 @@ GameObject:
   - component: {fileID: 4931091562478943876}
   - component: {fileID: 4148812749107280542}
   - component: {fileID: 2639011992574859913}
-  - component: {fileID: 789148912438506619}
   m_Layer: 0
   m_Name: PassengerSeat_Frame
   m_TagString: Untagged
@@ -472,20 +485,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &789148912438506619
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4893212979607178824}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 3331384640842034642, guid: f1d303a136c137e4ba0f35097648212e, type: 3}
 --- !u!1 &5522227179150247749
 GameObject:
   m_ObjectHideFlags: 0
