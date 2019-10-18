@@ -7,7 +7,7 @@ public class LockMouse : MonoBehaviour
 {	
 	void Start()
 	{
-		LockCursor(true);
+        Cursor.lockState = CursorLockMode.Locked;
 	}
 
     void Update()
@@ -15,18 +15,14 @@ public class LockMouse : MonoBehaviour
     	// lock when mouse is clicked
     	if( Input.GetMouseButtonDown(0) && Time.timeScale > 0.0f )
     	{
-    		LockCursor(true);
-    	}
+            Cursor.lockState = CursorLockMode.Locked;
+        }
     
     	// unlock when escape is hit
         if  ( Input.GetKeyDown(KeyCode.Escape) )
         {
-        	LockCursor(!Screen.lockCursor);
+            Cursor.lockState = CursorLockMode.None;
         }
     }
     
-    public void LockCursor(bool lockCursor)
-    {
-    	Screen.lockCursor = lockCursor;
-    }
 }
